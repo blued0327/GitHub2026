@@ -53,5 +53,11 @@ public class Empleado {
         this.direccion = direccion;
     }
     
-    
+    public void CalcularSalario(){
+        int  sal1 =0;
+       int  sal2 =2;
+       int suma =sal1+sal2;
+        System.out.println("La suma es: "+ suma);
+        
+    }
 }
