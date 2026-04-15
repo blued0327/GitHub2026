@@ -17,6 +17,7 @@ public class ProgramaCualquiera {
         System.out.println("Hola mundo");
         Empleado emp1 = new Empleado(1,"Jose","Marin","hola");
         
+        System.out.println("Nombre:" +emp1.getNombre()+"Apellido"+emp1.getApellido()+"Direccion"+emp1.getDireccion());
         emp1.CalcularSalario();
     }
     
