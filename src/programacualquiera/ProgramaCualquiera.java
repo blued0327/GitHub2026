@@ -15,6 +15,9 @@ public class ProgramaCualquiera {
      */
     public static void main(String[] args) {
         System.out.println("Hola mundo");
+        Empleado emp1 = new Empleado(1,"Jose","Marin","hola");
+        
+        emp1.CalcularSalario();
     }
     
 }
